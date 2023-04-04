@@ -1,0 +1,20 @@
+.profile {
+  width: 55em;
+  height: 7.5em;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .profile {
+    width: 20em;
+    height: 19em;
+    display: grid;
+    grid-template-areas:
+    '. image .'
+    '. info edt-btn'
+    '. add-btn .';
+    /* flex-direction: column;
+    align-items: center; */
+  }
+}

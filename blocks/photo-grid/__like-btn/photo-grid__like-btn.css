@@ -1,0 +1,13 @@
+.photo-grid__like-btn {
+  color: #000;
+  font-size: 1.5em;
+  margin-right: .5em;
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+  background-color: #fff;
+}
+
+.photo-grid__like-btn:hover {
+  opacity: .7;
+}

@@ -1,0 +1,24 @@
+.profile__add-btn {
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  top: 2.2em;
+  right: 1em;
+  background-color: #000;
+  border: 0;
+  align-items: center;
+  padding: 0;
+  margin-left: 9.7em;
+}
+
+.profile__add-btn:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__add-btn {
+    grid-area: add-btn;
+    position: static;
+    margin: 0 auto 0;
+  }
+}

@@ -1,0 +1,6 @@
+.photo-grid__info {
+  display: flex;
+  height: 4.5em;
+  align-items: center;
+  justify-content: space-around;
+}

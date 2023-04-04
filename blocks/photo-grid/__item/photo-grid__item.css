@@ -1,0 +1,8 @@
+.photo-grid__item {
+  display: block;
+  width: 17.5em;
+  height: 22.5em;
+  box-sizing: border-box;
+  border-radius: 4%;
+  background-color: #fff;
+}

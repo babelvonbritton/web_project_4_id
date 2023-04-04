@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Around The U.S.</title>
+</head>
+<body class="page">
+  <main class="container">
+    <!-- Heading -->
+    <header class="header">
+      <img src="./images/header-title.png" alt="header-title" class="header__img">
+    </header>
+    <!-- Profile -->
+    <div class="profile">
+      <img src="./images/avatar.png" alt="avatar" class="profile__pic">
+      <span class="profile__info">
+        <h1 class="profile__name">Jacques Cousteau</h1>
+        <p class="profile__title">Penjelajah</p>
+      </span>
+      <button class="profile__edit-btn"><img src="./images/edit-btn.png" alt="Edit button"></button>
+      <button class="profile__add-btn"><img src="./images/add-btn.png" alt="Add button"></button>
+    </div>
+    <!-- Photo Grid -->
+    <div class="photo-grid">
+      <span class="photo-grid__item">
+        <img src="./images/yosemite-valley.png" alt="Lembah Yosemite" class="photo-grid__img">
+        <span class="photo-grid__info">
+          <p class="photo-grid__name">Lembah Yosemite</p>
+          <button class="photo-grid__like-btn">&#9825;</button>
+        </span>
+      </span>
+      <span class="photo-grid__item">
+        <img src="./images/louise-lake.png" alt="Danau Louise" class="photo-grid__img">
+        <span class="photo-grid__info">
+          <p class="photo-grid__name">Danau Louise</p>
+          <button class="photo-grid__like-btn">&#9825;</button>
+        </span>
+      </span>
+      <span class="photo-grid__item">
+        <img src="./images/bald-mountain.png" alt="Pegunungan Bald" class="photo-grid__img">
+        <span class="photo-grid__info">
+          <p class="photo-grid__name">Pegunungan Bald</p>
+          <button class="photo-grid__like-btn">&#9825;</button>
+        </span>
+      </span>
+      <span class="photo-grid__item">
+        <img src="./images/mount-latemar.png" alt="Gunung Latemar" class="photo-grid__img">
+        <span class="photo-grid__info">
+          <p class="photo-grid__name">Gunung Latemar</p>
+          <button class="photo-grid__like-btn">&#9825;</button>
+        </span>
+      </span>
+      <span class="photo-grid__item">
+        <img src="./images/vanoise-national-park.png" alt="Taman Nasional Vanoise" class="photo-grid__img">
+        <span class="photo-grid__info">
+          <p class="photo-grid__name">Vanoise National Park</p>
+          <button class="photo-grid__like-btn">&#9825;</button>
+        </span>
+      </span>
+      <span class="photo-grid__item">
+        <img src="./images/lago-of-braies.png" alt="Lago di Braies" class="photo-grid__img">
+        <span class="photo-grid__info">
+          <p class="photo-grid__name">Lago di Braies</p>
+          <button class="photo-grid__like-btn">&#9825;</button>
+        </span>
+      </span>
+    </div>
+    <!-- Pop up overlay -->
+    <div class="popup">
+      <div class="popup__container">
+        <button class="popup__close-btn"><img src="./images/close-btn.png" alt="Close button"></button>
+        <h3 class="popup__title">Edit profil</h3>
+        <input type="text" name="name" placeholder="Nama" class="popup__input popup__input_text_name">
+        <input type="text" name="title" placeholder="Tentang saya" class="popup__input popup__input_text_title">
+        <button type="submit" class="popup__submit-btn">Simpan</button>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__cr">&#169; 2023 Alzam A. | All rights reserved</p>
+  </footer>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

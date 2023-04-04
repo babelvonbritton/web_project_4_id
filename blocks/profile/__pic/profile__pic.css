@@ -1,0 +1,13 @@
+.profile__pic {
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__pic {
+    width: 8em;
+    height: 8em;
+    margin: auto;
+    grid-area: image;
+  }
+}

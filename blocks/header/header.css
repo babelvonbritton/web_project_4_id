@@ -1,0 +1,13 @@
+.header {
+  width: 55em;
+  height: 4.6em;
+  margin-bottom: 3.75em;
+  border-bottom: .1em solid grey;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: 20em;
+    height: 3em;
+  }
+}
