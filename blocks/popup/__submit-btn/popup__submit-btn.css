@@ -7,7 +7,7 @@
   background-color: #000;
   font-size: 1.2em;
   line-height: 120%;
-  font-weight: 400;
+  font-family: 'Inter-Regular', sans-serif;
 }
 
 .popup__submit-btn:hover {

@@ -1,12 +1,8 @@
-@font-face {
-  font-family: 'Inter', 'Inter Black', 'Inter Medium';
-}
-
 .page {
   max-width: 1280px;
   background-color: #000;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter-Regular', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;

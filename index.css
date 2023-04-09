@@ -2,6 +2,7 @@
 @import url(./vendor/normalize.css);
 @import url(./blocks/root/root.css);
 @import url(./blocks/page/page.css);
+@import url(./fonts/fonts.css);
 
 /* Wrap up page contents */
 @import url(./blocks/container/container.css);
