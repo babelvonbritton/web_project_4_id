@@ -11,9 +11,11 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    width: 20em;
+    width: 19em;
     height: 2250px;
-    margin: 2em 1.2em 0;
+    margin-top: 2em;
+    margin-right: 0;
+    padding-left: 1.3em;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: 1fr;
   }
