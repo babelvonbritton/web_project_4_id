@@ -1,11 +1,20 @@
 .photo-grid__like-btn {
-  color: #000;
+  background-image: url(../../../images/love-btn.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 1em;
+  height: .8em;
   font-size: 1.5em;
   margin-right: .5em;
   cursor: pointer;
   padding: 0;
   border: 0;
-  background-color: #fff;
+}
+
+.photo-grid__like-btn_active {
+  background-image: url(../../../images/love-btn-active.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .photo-grid__like-btn:hover {
