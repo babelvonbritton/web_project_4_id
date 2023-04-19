@@ -1,6 +1,6 @@
 .photo-grid {
-  width: 880px;
-  height: 750px;
+  width: 55em;
+  height: 46.8em;
   display: grid;
   box-sizing: border-box;
   grid-template-columns: repeat(3, 1fr);
@@ -12,7 +12,7 @@
 @media screen and (max-width: 320px) {
   .photo-grid {
     width: 19em;
-    height: 2250px;
+    height: 140em;
     margin-top: 2em;
     margin-right: 0;
     padding-left: 1.3em;
