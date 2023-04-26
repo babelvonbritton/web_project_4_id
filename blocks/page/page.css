@@ -1,5 +1,5 @@
 .page {
-  width: 80em;
+  width: 100%;
   background-color: #000;
   color: #fff;
   font-family: 'Inter-Regular', sans-serif;
@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 320px){
   .page {
-    width: 20em;
+    max-width: 20em;
   }
 }
